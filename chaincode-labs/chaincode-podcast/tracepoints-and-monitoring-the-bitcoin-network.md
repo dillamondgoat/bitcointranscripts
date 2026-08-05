@@ -1,25 +1,40 @@
 ---
-title: "Tracepoints and monitoring the Bitcoin network"
-transcript_by: kouloumos via tstbtc v1.0.0 --needs-review
-source_file: https://anchor.fm/s/12fe0620/podcast/play/53093269/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2022-5-6%2F1232c21f-4b91-dfe9-8959-728bac4df94e.mp3
-media: https://podcasters.spotify.com/pod/show/chaincode/episodes/0xB10C--Tracepoints-and-monitoring-the-Bitcoin-network-e1jipel
+title: 'Tracepoints and monitoring the Bitcoin network'
+transcript_by: 'dillamondgoat via review.btctranscripts.com'
+source_file: 'https://podcasters.spotify.com/pod/show/chaincode/episodes/0xB10C--Tracepoints-and-monitoring-the-Bitcoin-network-e1jipel'
+media: 'https://podcasters.spotify.com/pod/show/chaincode/episodes/0xB10C--Tracepoints-and-monitoring-the-Bitcoin-network-e1jipel'
 tags: []
-speakers: ['0xB10C']
-categories: ['podcast']
-date: 2022-06-06
+speakers:
+  - 'Adam Jonas'
+  - 'Mark Erhardt'
+  - 'Speaker 1'
+  - 'Speaker 0'
+  - 'Speaker 2'
+categories:
+  - 'podcast'
+date: '2022-06-06'
 ---
-Speaker 0: 00:00:00
+Adam Jonas: 00:00:00
 
 Hey, Merch.
+
+
+Mark Erhardt: 00:00:00
+
 What up?
+
+
+Adam Jonas: 00:00:02
+
 We are back in the studio.
-
-Speaker 1: 00:00:02
-
 Who are we talking to today?
-We're talking to OXB10C.
 
-Speaker 0: 00:00:06
+
+Mark Erhardt: 00:00:04
+
+We're talking to 0xB10C.
+
+Adam Jonas: 00:00:06
 
 I know him as Timo.
 So we're going to call him Timo.
@@ -159,7 +174,7 @@ And we often can gather insights and feed them back into development and improve
 
 ## Monitoring the mempool
 
-Speaker 0: 00:02:53
+Speaker 0: 00:02:52
 
 Cool.
 So the first project that I recall you were doing, the Mempool Observer.
@@ -459,7 +474,7 @@ And it's a means for us to convince ourselves and hopefully also our peers that 
 
 ## Why are tracepoints in production code?
 
-Speaker 0: 00:14:39
+Speaker 0: 00:14:38
 
 Yeah, I mean, I definitely see the value when you're developing something or you're checking something.
 I guess I'm questioning why it would end up in production at all.
